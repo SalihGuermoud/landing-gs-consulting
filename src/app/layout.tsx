@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "GS Consulting | Site Web & Application sur Mesure pour TPE/PME",
   description:
-    "Création de sites internet vitrines modernes, refonte de sites web, développement d'applications métier et automatisation de tâches pour TPE et PME en France. Votre projet livré rapidement et validé avant le paiement final.",
+    "Création de sites internet vitrines modernes, refonte de sites web, développement d'applications métier et automatisation de tâches pour TPE et PME en France. Votre projet livré rapideme[...]
   keywords: [
     "développement web",
     "site vitrine",
@@ -63,6 +63,18 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <head>
+        {/* Google Analytics */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-G6Y8PGHCCS"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-G6Y8PGHCCS');
+            `,
+          }}
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -83,4 +95,3 @@ export default function RootLayout({
     </html>
   );
 }
-
