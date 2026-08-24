@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "GS Consulting | Site Web & Application sur Mesure pour TPE/PME",
   description:
-    "Création de sites internet vitrines modernes, refonte de sites web, développement d'applications métier et automatisation de tâches pour TPE et PME en France. Votre projet livré rapideme[...]
+    "Création de sites internet vitrines modernes, refonte de sites web, développement d'applications métier et automatisation de tâches pour TPE et PME en France. Votre projet livré rapidement.",
   keywords: [
     "développement web",
     "site vitrine",
