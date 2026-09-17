@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: "/api/",
     },
-    sitemap: "https://www.gs-consulting.fr/sitemap.xml",
+    sitemap: "https://gsconsulting-dev.fr/sitemap.xml",
   };
 }
